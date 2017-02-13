@@ -202,6 +202,7 @@ module.exports = function (options) {
         cached: false,
         exclude: excludeFromStats,
       },
+      setup: require('./webserver'),
     },
   };
 };
